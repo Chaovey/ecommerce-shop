@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Headers from './components/header/header';
+import Header from './components/header/header';
 function App() {
   return (
     <>
-    <Headers/>
+      <Header/>
     </>
   );
 }
