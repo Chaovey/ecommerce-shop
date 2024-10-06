@@ -12,20 +12,20 @@ header .headerSearch {
     padding: 10px 20px;
 }
 
-header .headerSearch .selecrDrop {
+header .headerSearch .selectDropWrapper {
     width: 25%;
     font-size: 16px;
     font-weight: 500;
     position: relative;
 }
 
-header .headerSearch .selecrDrop:after {
+header .headerSearch .selectDropWrapper:after {
     content:'';
     width: 1px;
     height: 30px;
     background: rgba(0,0,0,0.2);
     position:absolute;
-    top: 0px;
+    top: 5px;
     right:0px;
 }  
 
